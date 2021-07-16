@@ -20,7 +20,7 @@ namespace ImportProduct
                 char letter = char.Parse(Console.ReadLine());
                 if (letter == 'i')
                 {
-                    Console.Write("Nome: ");
+                    Console.Write("Name: ");
                     string nome = Console.ReadLine();
                     Console.Write("Price: ");
                     double price = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
@@ -31,7 +31,7 @@ namespace ImportProduct
                 }
                 else if (letter == 'c')
                 {
-                    Console.Write("Nome: ");
+                    Console.Write("Name: ");
                     string nome = Console.ReadLine();
                     Console.Write("Price: ");
                     double price = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
@@ -39,7 +39,7 @@ namespace ImportProduct
                 }
                 else
                 {
-                    Console.Write("Nome: ");
+                    Console.Write("Name: ");
                     string nome = Console.ReadLine();
                     Console.Write("Price: ");
                     double price = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
